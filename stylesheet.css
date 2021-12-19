@@ -1,0 +1,11 @@
+.etch-square {
+    border: solid black;
+    width: 20px;
+    height: 20px;
+}
+
+.sketch-container {
+    display: inline-grid;
+    width: 80%;
+    height: 80%;
+}
