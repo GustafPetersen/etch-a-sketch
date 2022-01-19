@@ -19,11 +19,12 @@ for (let i = 1; i <= etchSquares; i++){
 }
 
 let numberRowColumn = Math.sqrt(etchSquares);
-const sizeRowColumn = Math.sqrt(etchSquares) + "%";
+
+console.log(numberRowColumn)
 
 const createGrid = () => {
-     gridContainer.style(gridTemplateColumns = `repeat(${numberRowColumn}, ${sizeRowColumn})`)
-     gridContainer.style(gridTemplateRows = `repeat(${numberRowColumn}, ${sizeRowColumn})`)
+    gridContainer.style.gridTemplateRows = `repeat(${numberRowColumn}, 1 fr)`
+    // gridContainer.style.gridTemplateRows = `repeat(${numberRowColumn}, 1 fr)`
 }
 
 createGrid()

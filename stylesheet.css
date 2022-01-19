@@ -1,15 +1,14 @@
 .etch-square {
     border: solid rgba(71, 71, 71, 0.048) 0.5px;
-   width: auto;
-   height: auto;
-   ;
+    width: auto;
+    height: auto;
 }
 
 .sketch-container {
     border: solid rgba(131, 131, 131,1) 1px;
     display: inline-grid;
-    width: 400px;
-    height: 400px;
+    width: 800px;
+    height: 800px;
     place-items: center;
     align-items: center;
 }
