@@ -5,10 +5,22 @@
         <link rel="stylesheet" href="stylesheet.css">
     </head>
     <body>
+        <header>
+            <h1>Etch-A-Sketch</h1>
+        </header>
         <div class="sketch-container">
         </div>
-        <div>
-            <input type="button" value="This is a button">
+        <div class="button-bar">
+            <input class="color-picker" type="color" value="#363636">
+            <input class="color-mode" type="button" value="Color Mode">
+            <input class="black-mode" type="button" value="Black Mode">
+            <input class="random-mode" type="button" value="Random Colors">
+            <input class="eraser-button" type="button" value="Eraser">
+
+        </div>
+        <div class="grid-controls">
+            <input class="clear-button" type="button" value="Clear">
+            <input class="range-slider" type="range">
         </div>
     </body>
     <script type="text/javascript" src="scripts/main.js">

@@ -1,14 +1,22 @@
-.etch-square {
-    border: solid rgba(71, 71, 71, 0.048) 0.5px;
-    width: auto;
-    height: auto;
+body {
+    display: flex;
+    justify-content: space-evenly;
+    align-content: center;
+    flex-flow: row wrap;
+}
+.sketch-container {
+    grid-column-start: 20%;
+    grid-column-end: 20%;
+    row-column-start: 50%;
+    row-column-end: 50%;
+    border: solid rgba(131, 131, 131,1) 3px;
+    display: grid;
+    width: 400px;
+    height: 400px;
 }
 
-.sketch-container {
-    border: solid rgba(131, 131, 131,1) 1px;
-    display: inline-grid;
-    width: 800px;
-    height: 800px;
-    place-items: center;
-    align-items: center;
+.color-picker {
+    border: none;
+    width: 60px;
+    height: 60px;
 }
