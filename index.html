@@ -1,29 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <link rel="stylesheet" href="stylesheet.css">
-    </head>
-    <body>
-        <header>
-            <h1>Etch-A-Sketch</h1>
-        </header>
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="stylesheet.css">
+</head>
+
+<body>
+    <header>
+        <h1>Etch-A-Sketch</h1>
+    </header>
+    <div class="content-container">
         <div class="sketch-container">
         </div>
-        <div class="button-bar">
-            <input class="color-picker" type="color" value="#363636">
-            <input class="color-mode" type="button" value="Color Mode">
-            <input class="black-mode" type="button" value="Black Mode">
-            <input class="random-mode" type="button" value="Random Colors">
-            <input class="eraser-button" type="button" value="Eraser">
-
-        </div>
         <div class="grid-controls">
+            <input class="color-picker" type="color" value="#008000">
             <input class="clear-button" type="button" value="Clear">
-            <input class="range-slider" type="range">
+            <input class="range-slider" type="range" min="1" value="16" max="64" step="4">
         </div>
-    </body>
-    <script type="text/javascript" src="scripts/main.js">
-    </script>
+    </div>
+
+</body>
+<script type="text/javascript" src="scripts/main.js">
+</script>
 
 </html>
